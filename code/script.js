@@ -197,11 +197,11 @@ function createCardGoods ({description, image, rating, price, color, article})  
   creatDivForCards.insertAdjacentHTML("beforeend", `
    
     <div class="cart-img">
-    <a href="../card/index.html?id=${article}">
+    <a href="./card.html?id=${article}">
       <img class="cart-img-item" id="${article}" src="${image}" alt="${description}">
     </a> 
     </div>
-    <a href="../card/index.html?id=${article}">
+    <a href="./card.html?id=${article}">
     <div class="cart-name">${description}</div>
     </a> 
     <div class="rating">
@@ -415,10 +415,10 @@ function createCard (arr)  {
     </div>
     
     <div class="card-color">
-    <a href="#"><img class="fb" src="../img/facebook.svg"alt="fb"></a>  
-    <a href="#"><img class="fb" src="../img/twitter 1.svg" alt="tw"></a>
-    <a href="#"><img class="fb" src="../img/pinterest.svg" alt="pint"></a>
-    <a href="#"><img class="fb" src="../img/link.svg" alt="link"></a>
+    <a href="#"><img class="fb" src="./img/facebook.svg"alt="fb"></a>  
+    <a href="#"><img class="fb" src="./img/twitter 1.svg" alt="tw"></a>
+    <a href="#"><img class="fb" src="./img/pinterest.svg" alt="pint"></a>
+    <a href="#"><img class="fb" src="./img/link.svg" alt="link"></a>
     </div>
 
     <div class="free-shopping">
@@ -427,11 +427,11 @@ function createCard (arr)  {
 
     <div class="free-content">
     <div class="free-content-left">
-    <div><img src="../img/free-delivery.svg" alt="delivery"></div>
+    <div><img src="./img/free-delivery.svg" alt="delivery"></div>
     <div class="free-content-left-text">FREE PRIORITY SHIPPING ON ORDERS $99+*</div>
     </div>
     <div class="free-content-left">
-    <div><img src="../img/exchange.svg" alt="exchange"></div>
+    <div><img src="./img/exchange.svg" alt="exchange"></div>
     <div class="free-content-left-text">FREE RETURNS & EXCHANGES*</div>
     </div>
     </div>
