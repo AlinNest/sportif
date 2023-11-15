@@ -551,7 +551,6 @@ export const products = [
 }
 ]
 
-
 export const productCard = {
   article: '', 
   title: '',
