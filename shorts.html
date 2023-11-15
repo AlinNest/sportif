@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>short</title>
+</head>
+<body>
+  <header class="header">
+    <div class="nav-conteiner pad">
+    <div class="logo">
+      <a href="./index.html"><img class="logo-img" src="../img/logo.png" alt="SPOTiFUSA"></a>
+    </div>
+    <div class="header-burger">
+      <span></span>
+    </div>
+    <div class="menu">
+    <nav class="menu__body">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="./index.html" class="menu__link">SHORTS</a></li>
+        <li class="menu__item"><a href="./pants.html" class="menu__link">PANTS</a></li>
+        <li class="menu__item"><a href="./shirts.html" class="menu__link">SHIRTS</a></li>
+        <li class="menu__item"><a href="./accessories.html" class="menu__link">ACCESSORIES</a></li>
+        <li class="menu__item">
+          <div class="header__cart cart">
+          <a href="#" class="menu__link link__basket">
+            <img class="basket" src="../img/shopping-basket.png" alt="">
+            <span class="cart__quantity">0</span>
+          </a>
+          
+          <div class="cart-content">
+            <ul class="cart-content__list">
+            </ul>
+            <div class="cart-content__bottom">
+              <div class="cart-content__fullprice">
+                <span>Total price:</span>
+                <span class="fullpriceCurrency">$ </span><span class="fullprice">0</span>
+              </div>
+              <button class="cart-content__btn btn">Order</button>
+            </div>
+          </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <form action="#">
+      <input class="search__main" type="search" placeholder="SEARCH ENTIRE STORE HERE">
+      <ul class="options">
+      </ul>
+    </form>
+  </div>
+  </header>
+  
+  <section class="section__main">
+   <section class="section__navigation pad">
+      <div class="navigation">
+        <div class="navigation-home"><a href="./index.html">Home</a></div>
+        <div class="navigation-shorts"><a href="./shorts.html">Shorts</a></div>
+        <div class="navigation-search">
+          <input class="search-navigation" type="search" placeholder="SEARCH">
+        </div>
+      </div>
+   </section> 
+
+   <section class="section__catalog">
+    <div class="catalog">
+      <div class="catalog-filter">
+        <ul class="list">
+          <il class="filter">
+            <div class="filter-header">SIZE
+              <span class="filter-header-arrow" data-id="catalog-menu"></span>
+            </div>
+            <div class="catalog-menu block-filter menu-size">
+             
+            </div>
+            <hr>
+          </il>
+          <il class="filter">
+            <a href=""></a>
+             <div class="filter-header">COLOR
+            <span class="filter-header-arrow" data-id="catalog-menu-color"></span>
+          </div>
+          <div class="catalog-menu-color block-filter menu-color">
+            
+          </div>
+          <hr>
+        </il>
+          <il class="filter">
+            <div class="filter-header">Price
+            <span class="filter-header-arrow" data-id="catalog-menu-price"></span>
+          </div>
+          <div class="catalog-menu-price block-filter menu-price">
+            <input class="input-text price" type="text" value="" id="price-min" placeholder="Min">
+            <span>-</span>
+            <input class="input-text" type="text" value="" id="price-max" placeholder="Max">
+            <span>Usd</span>
+          </div>
+          <hr>
+        </il>
+          <li class="filter"> 
+            <div class="filter-header">Rating
+            <span class="filter-header-arrow" data-id="catalog-menu-rating"></span>
+          </div>
+          <div class="catalog-menu-rating block-filter menu-rating">
+            <label for="rating">Min rating</label>
+            <input class="rating" type="number" name="rating" min="0" max="5" placeholder="0" id="rating" value="">
+            <spa>Stars</spa>
+          </div>
+          <hr>
+        </li>
+        </ul>
+        <button class="clean" type="reset">Clean filters</button>
+      </div>
+
+      <div class="filter-icon"></div>
+      
+      <div>
+      <div class="catalog-cards">
+      </div>
+
+      <div class="catalog-pagination">
+      </div>
+      
+      </div>
+    </div>
+   </section>
+  </section>
+  <footer>
+    <div>
+      <a class="button-down" href="#"><img src="../img/Arrow 1.png" alt="Arrow"></a> 
+  </div> 
+    <section class="footer-main">
+      <div class="footer">
+       <div class="footer-column">
+        <div class="footer-column-title"><a href="#">ORDERING ONLINE</a></div>
+        <div class="footer-column-item"><a href="#">Account Login</a></div>
+        <div class="footer-column-item"><a href="#">Our Guarantee</a></div>
+        <div class="footer-column-item"><a href="#">Sportif Stretch Guide</a></div>
+        <div class="footer-column-item"><a href="#">Size Chart & Sizing Information</a></div>
+        <div class="footer-column-item"><a href="#">Hemming Information</a></div>
+        <div class="footer-column-item"><a href="#">Ordering & Payment</a></div>
+        <div class="footer-column-item"><a href="#">Shipping Information</a></div>
+        <div class="footer-column-item"><a href="#">Returns</a></div>
+       </div>
+       <div class="footer-column">
+        <div class="footer-column-title"><a href="#">ABOUT SPORTIF</a></div>
+        <div class="footer-column-item"><a href="#">COVID-19 Response
+        </a></div>
+        <div class="footer-column-item"><a href="#">History
+        </a></div>
+        <div class="footer-column-item"><a href="#">Legacy
+        </a></div>
+        <div class="footer-column-item"><a href="#">Good Sam Program
+        </a></div>
+        <div class="footer-column-item"><a href="#">Privacy & Security</a></div>
+        <div class="footer-column-item"><a href="#">Terms & Conditions
+        </a></div>
+        <div class="footer-column-item"><a href="#">Careers</a></div>
+       </div>
+       <div class="footer-column">
+        <div class="footer-column-title"><a href="#">QUICK LINKS</a></div>
+        <div class="footer-column-item"><a href="#">FAQs
+        </a></div>
+        <div class="footer-column-item"><a href="#">Shop Online Catalog</a></div>
+        <div class="footer-column-item"><a href="#">Contact Us</a></div>
+       </div>
+       <div class="footer-column">
+        <div class="footer-column-title"><a href="#">GET TO KNOW US
+        </a></div>
+        <div class="footer-column-item-promo">Sign up for our weekly newsletter and get a 10% off coupon by email for your first order!</div>
+        <div class="footer-column-item">Sign Up for Our Newsletter:</div>
+        <div class="sign-up">
+        <input  class="sign-up-email" type="text" placeholder="EMAIL ADDRESS">
+        <button class="subscribe">SUBSCRIBE</button>
+        </div>
+       </div> 
+      </div>
+    </section>
+    <section class="footer-signature">
+      <div class="signature">©2021 Sportif Mailorder. All Rights Reserved.</div>
+    </section>
+  </footer>
+
+<script src="./code/script.js" type="module"></script>
+</body>
+</html>
